@@ -1,6 +1,7 @@
-var score = 0;
+
 var addScore = function() {
+    var score = 0;
     score += 10;
-    $("h2").text("Score: " + score);
+    
 }
 addScore();
