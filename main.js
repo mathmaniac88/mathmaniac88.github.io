@@ -6,8 +6,8 @@ var addScore = function() {
     scoreTag.innerHTML = "Score: " + score;
     localStorage.setItem('score', score);
 }
-addScore();
 var displayScore = function() {
     var storedScore = localStorage.getItem('score');
     scoreTag.innerHTML = "Score: " + storedScore;
 }
+displayScore();
