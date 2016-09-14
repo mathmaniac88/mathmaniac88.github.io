@@ -10,4 +10,5 @@ var displayScore = function() {
     var storedScore = localStorage.getItem('score');
     scoreTag.innerHTML = "Score: " + storedScore;
 }
+localStorage.setItem('score', 20);
 displayScore();
