@@ -10,5 +10,10 @@ var displayScore = function() {
     var storedScore = localStorage.getItem('score');
     scoreTag.innerHTML = "Score: " + storedScore;
 }
-localStorage.setItem('score', 20);
+var save = function() {
+    localStorage.setItem('score', score);
+    console.log("Saved");
+}
+score = 20;
+save();
 displayScore();
