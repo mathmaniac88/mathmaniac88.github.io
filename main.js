@@ -19,7 +19,7 @@ displayScore();
 button.onclick = function() {
     updateScore();
 }
-saveButton.onclick = function() {
+function OnClickButton () {
     save();
-    console.log("It works!")
+    console.log("It works!");
 }
