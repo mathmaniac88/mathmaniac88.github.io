@@ -21,4 +21,5 @@ button.onclick = function() {
 }
 saveButton.onclick = function() {
     save();
+    console.log("It works!")
 }
