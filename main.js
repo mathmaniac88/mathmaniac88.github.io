@@ -2,9 +2,8 @@ var score = 0;
 var scoreTag = document.getElementById("scoreTag");
 var addScore = function() {
     score += 10;
-    
-    scoreTag.innerHTML = "Score: " + score;
-    localStorage.setItem('score', score);
+    displayScore();
+    save();
 }
 var displayScore = function() {
     var storedScore = localStorage.getItem('score');
