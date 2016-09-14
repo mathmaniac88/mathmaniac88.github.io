@@ -14,7 +14,7 @@ var updateScore = function() {
     displayScore();
     save();
 }
-button.onClick = function() {
+button.onclick = function() {
     updateScore();
 }
 save();
