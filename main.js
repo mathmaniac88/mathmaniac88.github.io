@@ -1,4 +1,4 @@
-var score = 0;
+var score;
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
 var displayScore = function() {
