@@ -1,9 +1,11 @@
 var score = 0;
+var storedScore;
+console.log(storedScore)
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
 var saveButton = document.getElementById("saveButton")
 var displayScore = function() {
-    var storedScore = localStorage.getItem('score');
+    storedScore = localStorage.getItem('score');
     scoreTag.innerHTML = "Score: " + storedScore;
 }
 var save = function() {
