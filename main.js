@@ -1,6 +1,10 @@
 var score = 0;
 var storedScore;
-console.log(storedScore)
+if storedScore === NaN {
+    storedScore = 0;
+} else {
+    storedScore = localStorage.getItem('score');
+}
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
 var saveButton = document.getElementById("saveButton")
