@@ -1,6 +1,6 @@
 var score = 0;
 var storedScore;
-if storedScore === null {
+if storedScore {
     storedScore = 0;
 } else {
     storedScore = localStorage.getItem('score');
