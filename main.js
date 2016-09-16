@@ -1,6 +1,10 @@
 var score = 0;
-var storedScore;
-    storedScore = localStorage.getItem('score');
+var storedScore = 0;
+if localStorage.getItem('score') === null {
+    localStorage.setItem('score', score);
+}else{
+    storedScore = localStorage.getItem('score')
+}
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
 var saveButton = document.getElementById("saveButton")
