@@ -18,7 +18,7 @@ var save = function() {
     console.log("Saved");
 }
 var updateScore = function() {
-    score += 10;
+    score = score + 10;
     displayScore();
     save();
 }
