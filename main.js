@@ -29,3 +29,6 @@ button.onclick = function() {
 function OnClickButton () {
     save();
 }
+function OnClickReset () {
+    score = 0;
+}
