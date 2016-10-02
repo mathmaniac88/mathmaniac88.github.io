@@ -1,6 +1,6 @@
 var score = 0;
 var storedScore = 0;
-if localStorage.getItem('score') === null {
+if localStorage.getItem('score') === NaN {
     localStorage.setItem('score', score);
 }else{
     storedScore = localStorage.getItem('score')
