@@ -31,4 +31,5 @@ function OnClickButton () {
 }
 function OnClickReset () {
     score = 0;
+    displayScore();
 }
