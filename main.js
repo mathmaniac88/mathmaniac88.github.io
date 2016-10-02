@@ -3,7 +3,8 @@ var storedScore = 0;
 if (localStorage.getItem('score') === NaN) {
     localStorage.setItem('score', score);
 }else{
-    storedScore = localStorage.getItem('score')
+    storedScore = localStorage.getItem('score');
+    score = storedScore;
 }
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
