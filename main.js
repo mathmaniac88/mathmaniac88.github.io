@@ -19,6 +19,7 @@ var updateScore = function() {
     displayScore();
     save();
 }
+displayScore();
 button.onclick = function() {
     updateScore();
 }
