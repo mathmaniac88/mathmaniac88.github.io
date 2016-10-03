@@ -33,3 +33,4 @@ function OnClickReset () {
     score = 0;
     displayScore();
 }
+console.log(Number("97"));
