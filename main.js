@@ -33,3 +33,4 @@ function OnClickReset () {
     score = 0;
     displayScore();
 }
+localStorage.setItem('test',"test");
