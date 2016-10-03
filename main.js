@@ -1,17 +1,14 @@
 var score = 0;
-var storedScore = 0;
 if (localStorage.getItem('score') === NaN) {
     localStorage.setItem('score', score);
 }else{
-    storedScore = Number(localStorage.getItem('score'));
-    score = storedScore;
+score = Number(localStorage.getItem('score'));
 }
 var scoreTag = document.getElementById("scoreTag");
 var button = document.getElementById("button")
 var saveButton = document.getElementById("saveButton")
 var displayScore = function() {
-    storedScore = localStorage.getItem('score');
-    scoreTag.innerHTML = "Score: " + storedScore;
+    scoreTag.innerHTML = "Score: " + score;
 }
 var save = function() {
     localStorage.setItem('score', score);
@@ -22,7 +19,6 @@ var updateScore = function() {
     displayScore();
     save();
 }
-displayScore();
 button.onclick = function() {
     updateScore();
 }
