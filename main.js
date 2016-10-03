@@ -3,7 +3,7 @@ var storedScore = 0;
 if (localStorage.getItem('score') === NaN) {
     localStorage.setItem('score', score);
 }else{
-    storedScore = localStorage.getItem('score');
+    storedScore = Number(localStorage.getItem('score'));
     score = storedScore;
 }
 var scoreTag = document.getElementById("scoreTag");
@@ -33,4 +33,3 @@ function OnClickReset () {
     score = 0;
     displayScore();
 }
-console.log(Number("97"));
