@@ -1,4 +1,4 @@
-window.addEventListener("keydown", checkArrowKeys, false);
+window.addEventListener("keydown", checkArrowKeys, true);
 var htwoEl = document.getElementById("h2");
 function checkArrowKeys(e) {
     if (e.keyCode == "37") {
