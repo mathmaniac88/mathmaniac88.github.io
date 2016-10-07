@@ -1,13 +1,12 @@
 window.addEventListener("keydown", checkArrowKeys, true);
-var htwoEl = document.getElementById("h2");
 function checkArrowKeys(e) {
     if (e.keyCode == "37") {
-        htwoEl.innerHTML = "Left Arrow";
+        alert("The left arrow was pressed");
     } else if (e.keyCode == "38") {
-        htwoEl.innerHTML = "Up Arrow";
+        alert("The up arrow was pressed");
     } else if (e.keyCode == "39") {
-        htwoEl.innerHTML = "Right Arrow";
+        alert("The right arrow was pressed");
     } else if (e.keyCode == "40") {
-        htwoEl.innerHTML = "Down Arrow";
+        alert("The down arrow was pressed");
     }
 }
