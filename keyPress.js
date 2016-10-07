@@ -1,5 +1,5 @@
 window.addEventListener("keydown", checkArrowKeys, false);
-var h2El = document.getElementByTagName("h2")
+var h2El = document.getElementById("h2");
 function checkArrowKeys(e) {
     if (e.keyCode == "37") {
         h2El.innerHTML = "Left Arrow";
