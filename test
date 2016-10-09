@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animate</title>
+</head>
+<body>
+<h1>Animate</h1>
+<div id="red"></div>
+<div id="yellow"></div>
+<div id="green"></div>
+<div id="blue"></div>
+</body>
+</html
