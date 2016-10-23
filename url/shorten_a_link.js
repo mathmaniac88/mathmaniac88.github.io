@@ -1,6 +1,6 @@
 function shortenUrl () {
+	var input = document.getElementById("inut");
 	var url = input.value;
-	var link = document.getElementById("link");
 	localStorage.setItem("url",url);
-	document.getElementById("input").innerHTML = "Go to http://mypublicwebsites.tk/url/url.html to test out your link";
+	document.getElementById("link").innerHTML = "Go to http://mypublicwebsites.tk/url/url.html to test out your link";
 }
