@@ -7,5 +7,6 @@ function shortenUrl () {
 	document.getElementById("text_after").innerHTML = " to test out your link";
 }
 function log () {
-	
+	var checkedValue = document.querySelector("#rememberTrue:checked").value;
+	console.log(checkedValue);
 }
