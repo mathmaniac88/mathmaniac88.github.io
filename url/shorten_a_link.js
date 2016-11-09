@@ -22,3 +22,10 @@ function log () {
 		localStorage.setItem("i", i);
 	}
 }
+function printSavedTitles () {
+	var i = Number(localStorage.getItem("i"));
+	for(var j = 1;j<i;j++) {
+		var link = document.createElement("A");
+		var url = localStorage
+	}
+}
