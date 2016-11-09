@@ -8,5 +8,15 @@ function shortenUrl () {
 }
 function log () {
 	var checkedValue = document.querySelector("#rememberTrue:checked").value;
-	console.log(checkedValue);
+	var input = document.getElementById("input");
+	var url = input.value;
+	var i = 0;
+	if (localStorage.getItem("i") === NaN) {
+		localStorage.setItem("i", i);
+	} else {
+		i = localStorage.getItem("i");
+	}
+	if(checkedValue === true) {
+		localStorage.setItem("url"+ i, url);
+	}
 }
