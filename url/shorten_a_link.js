@@ -6,3 +6,6 @@ function shortenUrl () {
 	document.getElementById("link").innerHTML= "http://mypublicwebsites.tk/url/url.html";
 	document.getElementById("text_after").innerHTML = " to test out your link";
 }
+function log () {
+	
+}
