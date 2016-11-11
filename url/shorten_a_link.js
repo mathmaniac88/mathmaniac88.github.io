@@ -30,5 +30,10 @@ function printSavedTitles () {
 		var text = document.createTextNode(url);
 		link.appendChild(text);
 		document.body.appendChild(link);
+		document.getElementsByTagName("A")[0].setAttribute("href", "#");
+		document.getElementsByTagName("A")[0].setAttribute("onclick", "setCurrentUrl()");
 	}
+}
+function setCurrentUrl () {
+	
 }
