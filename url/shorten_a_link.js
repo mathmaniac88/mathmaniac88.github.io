@@ -24,7 +24,7 @@ function log () {
 }
 function printSavedTitles () {
 	var i = Number(localStorage.getItem("i"));
-	for(var j = 1;j<i;j++) {
+	for(var j = 1;j<i+1;j++) {
 		var link = document.createElement("A");
 		var url = localStorage.getItem("url" + j);
 		var text = document.createTextNode(url);
