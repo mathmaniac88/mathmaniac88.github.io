@@ -11,3 +11,6 @@ function authenticateData () {
     password = "";
   }
 }
+if(localStorage.getItem("isSignedIn") === "true") {
+  window.location.replace("home.html");
+}
