@@ -3,6 +3,7 @@ var currentUser = localStorage.getItem("currentUser");
 if(isSignedIn === "true") {
   if (currentUser === "Sean") {
     var greeting = document.getElementById("greeting");
+    console.log(greeting);
     greeting.innerHTML = "Hi ";
   }
 } else {
