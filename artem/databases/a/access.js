@@ -1,2 +1,3 @@
 function authenticateData () {
+  document.getElementById
 }
