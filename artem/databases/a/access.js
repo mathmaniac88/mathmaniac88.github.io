@@ -1,3 +1,3 @@
 function authenticateData () {
-  document.getElementById
+  var username = document.getElementById(
 }
