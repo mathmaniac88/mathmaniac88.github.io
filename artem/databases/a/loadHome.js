@@ -8,3 +8,7 @@ if(isSignedIn === "true") {
 } else {
   window.location.replace("index.html");
 }
+function logOut () {
+  localStorage.setItem("isSignedIn","false");
+  localStorage.setItem("currentUser", "none");
+}
