@@ -11,4 +11,5 @@ if(isSignedIn === "true") {
 function logOut () {
   localStorage.setItem("isSignedIn","false");
   localStorage.setItem("currentUser", "none");
+  window.location.replace("index.html");
 }
