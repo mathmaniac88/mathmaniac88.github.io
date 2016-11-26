@@ -1,8 +1,7 @@
 var isSignedIn = localStorage.getItem("isSignedIn");
 var currentUser = localStorage.getItem("currentUser");
-console.log(currentUser);
 if(isSignedIn === "true") {
-  document.getElementById("greeting").innerHTML = "Hi" + currentUser;
+  document.getElementById("name").innerHTML = currentUser;
 } else {
   window.location.replace("index.html");
 }
