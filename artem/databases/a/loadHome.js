@@ -1,9 +1,11 @@
 var isSignedIn = localStorage.getItem("isSignedIn");
 var currentUser = localStorage.getItem("currentUser");
 if(isSignedIn === "true") {
-  var nameEl = document.getElementById("name");
-  var name = document.createTextNode(currentUser);
-  nameEl.appendChild(name);
+  if(document.getElementById("name") === null) {
+    alert("<div id=\"name\"></div> is null");
+  } else {
+    alert("It is not null");
+  }
 } else {
   window.location.replace("index.html");
 }
