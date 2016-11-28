@@ -11,4 +11,5 @@ function logOut () {
   window.location.replace("index.html");
 }
 function load() {
+  document.getElementById("user").innerHTML = "Hi " + currentUser;
 }
