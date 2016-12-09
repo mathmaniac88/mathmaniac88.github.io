@@ -5,19 +5,22 @@
 </head>
 <body>
 <form>
+<fieldset>
 <label for="name">Name:</label>
 <input id="name" placeholder="Enter your name"></input>
-<br />
+</fieldset>
+<fieldset>
 <label for="gender">Gender:</label>
 <select id="gender">
 <option id="male" value="male">Male</option>
 <option id="femaled" value="female">Female</option>
 <button type="submit" >Submit</button>
 </select>
+</fieldset>
 <fieldset>
 <p>Have you participated in the Hour of Code?</p>
-<input type="radio" id="yes" value=true>Yes</input>
-<input type="radio" id="no" value=false>No, not yet</input>
+<input type="radio" id="yes" value=true name="participated">Yes</input>
+<input type="radio" id="no" value=false name="participated">No, not yet</input>
 </fieldset>
 </form>
 <script>
