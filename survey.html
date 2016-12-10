@@ -21,14 +21,18 @@
 <input type="radio" id="yes" value=true name="participated">Yes</input>
 <input type="radio" id="no" value=false name="participated">No, not yet</input>
 </fieldset>
-<button id="submit" type="submit" onclick="submit()">Submit</button>
+<button id="submit" onclick="submit()">Submit</button>
 <p id="result"></p>
 </form>
 <script>
 function submit() {
   var name = document.getElementById("name").value;
-  var gender = document.getElementById("gender")["selected"].value;
-  console.log(gender);
+  var gender = document.querySelector("#mySelectBox option:selected").value
+  if(participated) {
+    document.getElementById("result").innerHTML = "Hi " + name + "! I hope you enjoyed the Hour of Code!"
+  } else {
+    document.getElementById("result").innerHTML = "Hi " + name + ", you should try the Hour of Code, it is very fun!"
+  }
 }
 </script>
 </body>
