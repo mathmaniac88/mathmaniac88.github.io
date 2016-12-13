@@ -13,6 +13,10 @@ function authenticateData () {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Artem");
     window.location.replace("home.html");
+  } else if(username.value === "taylord" && password.value === "taylor035") {
+    localStorage.setItem("isSignedIn", "true");
+    localStorage.setItem("currentUser", "Artem");
+    window.location.replace("home.html");
   } else {
     document.getElementById("error").innerHTML = "The username or the password is incorrect";
     username.value = "";
