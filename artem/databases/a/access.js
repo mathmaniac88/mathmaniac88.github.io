@@ -1,7 +1,7 @@
 function authenticateData () {
   var username = document.getElementById("username");
   var password = document.getElementById("password");
-  if(username.value === "awesomeguy" && password.value === "-12071242376-11212204105") {
+  if(username.value === "awesomeguy" && password.value === "awesomevhtccode") {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Sean");
     window.location.replace("home.html");
