@@ -1,6 +1,6 @@
-var username = document.getElementById("username");
-var password = document.getElementById("password");
 function authenticateData () {
+  var username = document.getElementById("username");
+  var password = document.getElementById("password");
   if(username.value === "awesomeguy" && password.value === "awesomevhtccode") {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Sean");
@@ -26,6 +26,8 @@ function authenticateData () {
 if(localStorage.getItem("isSignedIn") === "true") {
   window.location.replace("home.html");
 }
+var username = document.getElementById("username");
+var password = document.getElementById("password");
 username.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
