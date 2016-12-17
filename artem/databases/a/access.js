@@ -26,15 +26,13 @@ function authenticateData () {
 if(localStorage.getItem("isSignedIn") === "true") {
   window.location.replace("home.html");
 }
-document.getElementById("password")
-    .addEventListener("keyup", function(event) {
+document.getElementById("password").addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
         document.getElementById("signin").click();
     }
 });
-document.getElementById("username")
-    .addEventListener("keyup", function(event) {
+document.getElementById("username").addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
         document.getElementById("signin").click();
