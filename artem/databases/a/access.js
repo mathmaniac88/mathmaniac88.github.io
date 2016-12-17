@@ -1,6 +1,6 @@
+var username = document.getElementById("username");
+var password = document.getElementById("password");
 function authenticateData () {
-  var username = document.getElementById("username");
-  var password = document.getElementById("password");
   if(username.value === "awesomeguy" && password.value === "awesomevhtccode") {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Sean");
