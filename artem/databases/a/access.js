@@ -34,4 +34,5 @@ function checkKey(e) {
 
     if (e.keyCode == '13') {
       document.getElementById("signin").click();
+    }
 }
