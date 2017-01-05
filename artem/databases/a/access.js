@@ -1,3 +1,6 @@
+function ignore () {
+  console.info("The user did not enter requested information");
+}
 function authenticateData () {
   var username = document.getElementById("username");
   var password = document.getElementById("password");
@@ -17,6 +20,8 @@ function authenticateData () {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Artem");
     window.location.replace("home.html");
+  } else if(username.value === "" && password.value === "") {
+    ignore();
   } else {
     document.getElementById("error").innerHTML = "The username or the password is incorrect";
     username.value = "";
