@@ -24,7 +24,6 @@ function authenticateData () {
     ignore();
   } else {
     document.getElementById("error").innerHTML = "The username or the password is incorrect";
-    username.value = "";
     password.value = "";
   }
 }
