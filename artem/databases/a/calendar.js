@@ -1,5 +1,5 @@
 var d = new Date();
-var m  = d.getMOnth();
+var m  = d.getMonth();
 if(m = 0) {
   m = "January";
 } if(m = 1) {
