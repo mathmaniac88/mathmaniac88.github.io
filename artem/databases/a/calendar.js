@@ -25,4 +25,4 @@ if(m = 0) {
 } if(m = 11) {
   m = "December";
 }
-document.getElementById("month").innerHTML = m;
+document.querySelector("h1#month").innerHTML = m;
