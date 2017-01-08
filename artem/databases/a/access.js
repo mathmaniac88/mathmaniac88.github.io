@@ -16,9 +16,9 @@ function authenticateData () {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("currentUser", "Artem");
     window.location.replace("home.html");
-  } else if(username.value === "taylord" && password.value === "taylor035") {
+  } else if(username.value === "taylord" && password.value === "taylor") {
     localStorage.setItem("isSignedIn", "true");
-    localStorage.setItem("currentUser", "Artem");
+    localStorage.setItem("currentUser", "Taylor");
     window.location.replace("home.html");
   } else if(username.value === "" && password.value === "") {
     ignore();
