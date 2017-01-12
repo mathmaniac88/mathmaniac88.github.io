@@ -4,6 +4,37 @@
 <script src="calendar.js"></script>
 </head>
 <body>
+<style>
+button#menubutton {
+  width:80px;
+  height:30px;
+  background-color:#b30000;
+  border-style:solid;
+  border-radius:7.5px;
+  border-width:5px;
+  border-color:#ffcc66;
+  cursor:auto;
+  color:white;
+}
+body{
+  color:white;
+  background-color:black;
+}
+a#link {
+  text-decoration:none;
+  color:white;
+}
+hr{
+  border-color:#ffcc66;
+}
+</style>
+<div id="menu">
+<a href="home.html"><button id="menubutton"><b>Home</b></button></a>
+<a href="calendar.html"><button id="menubutton"><b>Calendar</b></button></a>
+<a href="#"><button onclick="logOut()" id="menubutton"><b>Log Out</b></button></a>
+<b id="greeting"></b>
+</div>
+<hr />
 <center><h1 id="month"></h1></center>
 <table>
 <tr>
