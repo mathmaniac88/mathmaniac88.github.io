@@ -28,15 +28,15 @@ function authenticateData () {
       localStorage.setItem("isSignedIn", true);
       localStorage.setItem("currentUser", users[i].name);
       window.location.replace("home.html");
+    } else if(username.value === "" || password.value === "") {
+      password.value = "";
+      document.getElementById("error").innerHTML = "Please fill out all fields";
+    } else {
+      password.value = "";
+      document.getElementById("error").innerHTML = "The username and/or password is incorrect";
     }
   }
-  if(username.value === "" || password.value === "") {
-    password.value = "";
-    document.getElementById("error").innerHTML = "Please fill out all fields";
-  } else {
-    password.value = "";
-    document.getElementById("error").innerHTML = "The username and/or password is incorrect";
-  }
+
 }
 if(localStorage.getItem("isSignedIn") === "true") {		
   window.location.replace("home.html");
