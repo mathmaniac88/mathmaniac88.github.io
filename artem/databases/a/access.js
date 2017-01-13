@@ -24,6 +24,7 @@ function authenticateData () {
   var username = document.getElementById("username");
   var password = document.getElementById("password");
   var i = 0;
+  var verified = false;
   while(i < users.length) {
     if(username.value === users[i].username && password.value === users[i].password) {
       localStorage.setItem("isSignedIn", true);
