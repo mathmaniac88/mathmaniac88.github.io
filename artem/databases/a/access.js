@@ -22,7 +22,6 @@ function authenticateData () {
    } else {
      document.getElementById("error").innerHTML = "The username and/or password is incorrect";
    }
-  }
 }
 if(localStorage.getItem("isSignedIn") === "true") {		
   window.location.replace("home.html");
