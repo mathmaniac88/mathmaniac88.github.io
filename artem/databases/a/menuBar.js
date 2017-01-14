@@ -1,4 +1,4 @@
-var isSignedIn = Boolean(localStorage.getItem("isSignedIn"));
+var isSignedIn = localStorage.getItem("isSignedIn");
 var currentUser = localStorage.getItem("currentUser");
 document.getElementById("greeting").innerHTML = "Hi " + currentUser + "!";
 function logOut () {
