@@ -6,13 +6,12 @@ button#menubutton {
   border-width:5px;
   border-color:#ffcc66;
   cursor:auto;
-  color:white;
 }
 body{
   color:white;
   background-color:black;
 }
-a#link {
+a {
   text-decoration:none;
   color:white;
 }
