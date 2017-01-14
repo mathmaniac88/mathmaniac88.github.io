@@ -22,5 +22,6 @@ do {
     day++;
     cellNum++;
   } while(cellNum <= 7)
+  cellNum = 1;
   row++;
 } while(row <= 6)
