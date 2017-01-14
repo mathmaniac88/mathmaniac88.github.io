@@ -18,8 +18,10 @@ function authenticateData () {
      localStorage.setItem("currentUser", "Taylor");
      window.location.replace("home.html");
    } else if(username.value === "" || password.value === "") {
+     password.value = "";
      document.getElementById("error").innerHTML = "Please fill out all fields";
    } else {
+     password.value = "";
      document.getElementById("error").innerHTML = "The username and/or password is incorrect";
    }
 }
