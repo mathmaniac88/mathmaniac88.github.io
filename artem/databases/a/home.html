@@ -5,6 +5,7 @@
 <link href="/favicons/arteminclogo.ico" rel="icon" type="image/x-icon" />
 <link rel="stylesheet" href="menuBar.css" type="text/css"/>
 <script>
+var isSignedIn = Boolean(localStorage.getItem("isSignedIn"));
 if(!isSignedIn) {
   window.location.replace("index.html");
 }
