@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Artem Inc. | Database A -> Login</title>
-<link rel="icon" href="/favicons/arteminclogo.ico" type="image/x-icon" />
-<script src="access.js"></script>
+<title>Artem Inc. | Database A - Login</title>
+<link rel="icon" href="/favicons/databasealogo.ico" type="image/x-icon" />
+<script src="css/fonts.js"></script>
 </head>
 <body>
 <style>
   body{
     background-color:black;
     color:white;
+    font-family:Verdana;
   }
   button#signin{
     width:80px;
@@ -22,14 +23,26 @@
     cursor:auto;
     color:white;
   }
+  input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #ffdd99;
+    color: white;
+    width:170px;
+    padding:0px 10px;
+  }
+  input:focus{
+    border-bottom: 3px solid #ffcc66;
+  }
 </style>
 <center>
 <h1><strong>Welcome to Database A</strong></h1>
 <strong>Username:</strong>
-<input id="username" required></input>
+<input id="username" placeholder="Username" required></input>
 <br />
 <strong>Password:</strong>
-<input id="password" type="password" required></input>
+<input id="password" type="password" placeholder="Password" required></input>
 <p style="color:white">.</p>
   <button onclick="authenticateData()" id="signin"><b>Sign-In</b></button>
 <p id="error" style="color:red"></p>
