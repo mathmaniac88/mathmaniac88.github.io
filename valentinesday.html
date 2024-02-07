@@ -7,12 +7,12 @@
 body {
   background-color: #FFD1D6;
   font-family: "Trebuchet MS";
-  padding: 50px;
 }
 h1 {
   color: #ff4d6a;
   text-align: center;
   font-size: 40px;
+  padding: 50px;
 }
 p {
   color: #ff4d6a;
@@ -28,6 +28,7 @@ button {
   color: white;
   background-color: #bf1f5c;
   opacity: 0.6;
+  margin: auto;
 }
 button:hover {
   opacity: 0.8;
@@ -35,13 +36,19 @@ button:hover {
 button:active {
   opacity: 1;
 }
+.wrapper {
+  display: inline-block;
+  text-align: center;
+}
 </style>
 </head>
 <body>
 <h1>Valentine's Day Simulator</h1>
 <p>Select your relationship status:</p>
-<button id="1">Single</button>
-<button id="2">In a Relationship</button>
+<div class="wrapper">
+  <button id="1">Single</button>
+  <button id="2">In a Relationship</button>
+</div>
 <p id="3"></p>
 <script>
 document.getElementById("1").onclick = function(){document.getElementById("3").innerText = "Aww it's okay, next year, trust. Next year you can press the other button :)";}
