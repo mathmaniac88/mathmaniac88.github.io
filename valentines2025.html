@@ -45,18 +45,23 @@ button:active {
   display: flex;
   justify-content: center;
 }
+
+input {
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #ff4d6a;
+}
 </style>
 </head>
 <body>
-<h1>Valentine's Day Simulator</h1>
-<p>Select your relationship status:</p>
+<h1>Valentine's Day 2025</h1>
+<p>Enter your name:</p>
 <div class="wrapper">
-  <button id="1">Single</button>
-  <button id="2">In a Relationship</button>
+  <input type="text" required placeholder="Name">
+  <button id="2">Enter</button>
 </div>
 <div id="3"></div>
 <script>
-document.getElementById("1").onclick = function(){document.getElementById("3").innerHTML = "<p>Aww it's okay, next year, trust. Next year you can press the other button :)</p>";}
 document.getElementById("2").onclick = function(){document.getElementById("3").innerHTML = "<p class='amogus'>stfu i know ur lying u single ass mf</p>";}
 </script>
 </body>
