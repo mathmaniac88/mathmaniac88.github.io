@@ -45,6 +45,8 @@ input[type="submit"]:active {
 }
 
 input[type="text"] {
+  width: 250px;
+  height: 50px;
   vertical-align: middle;
   border-radius: 5px;
   border: 2px solid #ff4d6a;
@@ -66,9 +68,16 @@ input[type="text"] {
 <script>
 document.getElementById("nameform").onsubmit = function(e){
   e.preventDefault();
-  name = document.getElementById("name").value.toLowerCase();
-  if (name == "dylan" || name == "dylan chow" || name == "dylan chos") {
-      document.getElementById("msg").innerHTML = "<p>No Dylan, I am NOT oiling up</p>";
+  name = document.getElementById("name").value.toLowerCase().split(" ")[0];
+  if (name == "dylan") {
+    document.getElementById("msg").innerHTML = "<p>No Dylan, I am NOT oiling up</p>";
+  } else if (name == "max") {
+    document.getElementById("msg").innerHTML = "<p>No Max, I am NOT letting you within a 10 mile radius of me</p>";
+  } else if (name == "harry" || name == "hg" || name == "huai") {
+    document.getElementById("msg").innerHTML = "<p>No Harry, I am NOT letting you touch me</p>";
+  } 
+  else {
+    document.getElementById("msg").innerHTML = "<p>Something smells fishy here... you're an impostor! ඞ</p>";
   }
 }
 </script>
