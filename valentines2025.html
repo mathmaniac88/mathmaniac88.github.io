@@ -46,12 +46,12 @@ input[type="submit"]:active {
 
 input[type="text"] {
   width: 250px;
-  height: 50px;
+  height: 44px;
   vertical-align: middle;
   border-radius: 5px;
   border: 2px solid #ff4d6a;
   font-family: "Trebuchet MS";
-  fontsize: 40px;
+  font-size: 20px;
 }
 </style>
 </head>
@@ -70,11 +70,27 @@ document.getElementById("nameform").onsubmit = function(e){
   e.preventDefault();
   name = document.getElementById("name").value.toLowerCase().split(" ")[0];
   if (name == "dylan") {
-    document.getElementById("msg").innerHTML = "<p>No Dylan, I am NOT oiling up</p>";
+    document.getElementById("msg").innerHTML = "<p>No Dylan, I am NOT oiling up.</p>";
   } else if (name == "max") {
-    document.getElementById("msg").innerHTML = "<p>No Max, I am NOT letting you within a 10 mile radius of me</p>";
+    document.getElementById("msg").innerHTML = "<p>No Max, I am NOT letting you within a 10 mile radius of me.</p>";
   } else if (name == "harry" || name == "hg" || name == "huai") {
-    document.getElementById("msg").innerHTML = "<p>No Harry, I am NOT letting you touch me</p>";
+    document.getElementById("msg").innerHTML = "<p>No Harry, I am NOT letting you touch me.</p>";
+  } else if (name == "katherine" || name == "kai") {
+    document.getElementById("msg").innerHTML = "<p>Your love life is like Schrödinger's cat. Could be alive, could be dead, but nobody really knows what's going on.</p>";
+  } else if (name == "esther") {
+    document.getElementById("msg").innerHTML = "<p>Weren't you reading some bald guy's book on self-improvement? Hopefully you got some bitches from that or something 🙏.</p>";
+  } else if (name == "andrew" || name == "simon") {
+    document.getElementById("msg").innerHTML = "<p>Roses are red, violets are blue. Profits in the red, gambling to continue.</p>";
+  } else if (name == "thomas") {
+    document.getElementById("msg").innerHTML = "<p>Boy oh boy where do I even begin. Thomas... honey, my pookie bear. I have loved you ever since I first laid eyes on you. The way you drive into the paint and strike fear into your enemies eyes. Your silky smooth touch around the rim, and that gorgeous jumpshot. I would do anything for you. I wish it were possible to freeze time so I would never have to watch you retire. You had a rough childhood, but you never gave up hope. You are even amazing off the court, you're a great husband and father, sometimes I even call you dad. I forvever dread and weep, thinking of the day you will one day retire. I would sacrifice my own life it were the only thing that could put a smile on your beautiful face. You have given me so much joy, and heartbreak over the years. I remember when you first left clevenland and its like my heart got broken into a million pieces. But a tear still fell from my right eye when I watched you win your first ring in miami, because deep down, my glorious king deserved it. I just wanted you to return home. Then allas, you did, my sweet baby boy came home and I rejoiced. 2015 was a hard year for us baby, but in 2016 you made history happen. You came back from 3-1 and I couldn't believe it. I was crying, bawling even, and I heard my glorious king exclaim these words, "CLEVELAND, THIS IS FOR YOU!" Not only have you changed the game of basketball and the world forever, but you've eternally changed my world. And now you're getting older, but still the goat, my goat. I love you pookie bear, my glorious king, Thomas Yu.☺️♥️🫶🏻</p>";
+  } else if (name == "erica") {
+    document.getElementById("msg").innerHTML = "<p>You're no longer a single ass mf! But that also means we can't make fun of you for coping anymore :(</p>";
+  } else if (name == "sylvia") {
+    document.getElementById("msg").innerHTML = "<p>The absolute GOAT. Carrying the bears so we never drop down to 0/10.</p>";
+  } else if (name == "sean") {
+    document.getElementById("msg").innerHTML = "<p>Hello, yes, I cover my edge cases. </p>";
+  } else if (name == "where") {
+    document.body.innerHTML = "<h1>404</h1><p>where?</p>";
   } 
   else {
     document.getElementById("msg").innerHTML = "<p>Something smells fishy here... you're an impostor! ඞ</p>";
