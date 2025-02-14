@@ -44,8 +44,6 @@ input[type="submit"]:active {
 }
 
 input[type="text"] {
-  width: 250px;
-  height: 44px;
   border-radius: 5px;
   border: 2px solid #ff4d6a;
   font-family: "Trebuchet MS";
@@ -67,7 +65,7 @@ input[type="text"] {
 document.getElementById("nameform").onsubmit = function(e){
   e.preventDefault();
   name = document.getElementById("name").value.toLowerCase();
-  if (name == "dylan" || name == "dylan chow" || name == "dylan chos) {
+  if (name == "dylan" || name == "dylan chow" || name == "dylan chos") {
       document.getElementById("msg").innerHTML = "<p>no dylan, I am NOT oiling up</p>";
   }
 }
