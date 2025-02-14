@@ -20,6 +20,7 @@ p {
   font-size: 20px;
 }
 input[type="submit"] {
+  vertical-align: middle;
   display: inline-block;
   padding: 10px;
   font-size: 24px;
@@ -44,6 +45,7 @@ input[type="submit"]:active {
 }
 
 input[type="text"] {
+  vertical-align: middle;
   border-radius: 5px;
   border: 2px solid #ff4d6a;
   font-family: "Trebuchet MS";
@@ -66,7 +68,7 @@ document.getElementById("nameform").onsubmit = function(e){
   e.preventDefault();
   name = document.getElementById("name").value.toLowerCase();
   if (name == "dylan" || name == "dylan chow" || name == "dylan chos") {
-      document.getElementById("msg").innerHTML = "<p>no dylan, I am NOT oiling up</p>";
+      document.getElementById("msg").innerHTML = "<p>No Dylan, I am NOT oiling up</p>";
   }
 }
 </script>
