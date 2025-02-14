@@ -64,7 +64,8 @@ input[type="text"] {
 </div>
 <div id="msg"></div>
 <script>
-document.getElementById("nameform").onsubmit = function(){
+document.getElementById("nameform").onsubmit = function(e){
+  e.preventDefault();
   name = document.getElementById("name").value;
   document.getElementById("msg").innerHTML = name;
 }
