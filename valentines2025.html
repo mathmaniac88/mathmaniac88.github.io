@@ -46,7 +46,7 @@ button:active {
   justify-content: center;
 }
 
-input {
+input[type="text"] {
   width: 300px;
   border-radius: 5px;
   border: 2px solid #ff4d6a;
@@ -59,12 +59,17 @@ input {
 <h1>Valentine's Day 2025</h1>
 <p>Enter your name:</p>
 <div class="wrapper">
-  <input type="text" required placeholder="Name">
-  <button id="submit">Enter</button>
+  <form id="nameform">
+    <input type="text" id="name" required placeholder="Name">
+    <input type="submit" value="Enter">
+  </form>
 </div>
-<div id="3"></div>
+<div id="msg"></div>
 <script>
-
+document.getElementById("nameform").onsubmit = function(){
+  name = document.getElementById("name").value;
+  document.getElementById("msg").innerHTML = name;
+}
 </script>
 </body>
 </html>
