@@ -31,11 +31,11 @@ input[type="submit"] {
   margin-left: 10px;
   font-family: "Trebuchet MS";
 }
-button:hover {
+input[type="submit"]:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-button:active {
+input[type="submit"]:active {
   opacity: 1;
 }
 .wrapper {
@@ -66,8 +66,10 @@ input[type="text"] {
 <script>
 document.getElementById("nameform").onsubmit = function(e){
   e.preventDefault();
-  name = document.getElementById("name").value;
-  document.getElementById("msg").innerHTML = name;
+  name = document.getElementById("name").value.toLowerCase();
+  if (name == "dylan" || name == "dylan chow" || name == "dylan chos) {
+      document.getElementById("msg").innerHTML = "<p>no dylan, I am NOT oiling up</p>";
+  }
 }
 </script>
 </body>
