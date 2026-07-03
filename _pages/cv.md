@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Pursuing B.S. in Pure Math, University of California, Los Angeles, Expected 2027
 
-Work experience
+Relevant Coursework
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2026 (200-level denotes graduate courses)
+  * Math 245ABC (Real Analysis)
+  * Math 246ABC (Complex Analysis)
+  * Math 225A (Smooth Manifolds)
+  * Math 115AHB (Linear Algebra)
+  * Physics 231B (Mathematical Methods, Representation Theory and Lie Groups)
+  * Physics 115A (Quantum Mechanics)
+**AT NYU**
+* 2025
+  * MATH-UA 328/329 (Honors Analysis I/II)
+  * MATH-UA 348/349 (Honors Algebra I/II)
+  * MATH-UA 268 (Honors ODE)
+  * PHYS-UA 120 (Dynamics)
+  * PHYS-UA 95 (Physics III)
+  * PHYS-UA 73 (Intermediate Experimental Physics I)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2024
+  * MATH-UA 238 (Honors Probability)
+  * PHYS-UA 180 (Fluid Dynamics)
+  * PHYS-UA 71/72 (Introductory Experimental Physics I/II)
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
