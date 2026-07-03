@@ -22,7 +22,9 @@ Relevant Coursework
   * Math 115AHB (Linear Algebra)
   * Physics 231B (Mathematical Methods, Representation Theory and Lie Groups)
   * Physics 115A (Quantum Mechanics)
+ 
 **AT NYU**
+
 * 2025
   * MATH-UA 328/329 (Honors Analysis I/II)
   * MATH-UA 348/349 (Honors Algebra I/II)
