@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * Pursuing B.S. in Pure Math, University of California, Los Angeles, Expected 2027
+* Pursued B.A. in Math and B.S. Physics, New York University, 2023-2025
 
 Relevant Coursework
 ======
