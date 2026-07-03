@@ -23,14 +23,14 @@ repository               : "mathmaniac88/mathmaniac88.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "fstivcub.png"
+  name             : "Sean He"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Pursuing B.S. in Pure Math"
+  location         : "UCLA"
+  employer         : # "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "seanhe@ucla.edu" 
 
   # Academic websites
   academia         : # URL
