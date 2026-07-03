@@ -16,7 +16,7 @@ Education
 
 Relevant Coursework
 ======
-* 2026 (200-level denotes graduate courses)
+* 2025-2026 (200-level denotes graduate courses)
   * Math 245ABC (Real Analysis)
   * Math 246ABC (Complex Analysis)
   * Math 225A (Smooth Manifolds)
@@ -26,7 +26,7 @@ Relevant Coursework
  
 **AT NYU**
 
-* 2025
+* 2024-2025
   * MATH-UA 328/329 (Honors Analysis I/II)
   * MATH-UA 348/349 (Honors Algebra I/II)
   * MATH-UA 268 (Honors ODE)
@@ -34,7 +34,7 @@ Relevant Coursework
   * PHYS-UA 95 (Physics III)
   * PHYS-UA 73 (Intermediate Experimental Physics I)
 
-* 2024
+* 2023-2024
   * MATH-UA 238 (Honors Probability)
   * PHYS-UA 180 (Fluid Dynamics)
   * PHYS-UA 71/72 (Introductory Experimental Physics I/II)
