@@ -16,7 +16,16 @@ Education
 
 Relevant Coursework
 ======
-* 2025-2026 (200-level denotes graduate courses)
+**AT UCLA**
+
+(200-level denotes graduate courses)
+
+* 2026-2027 (Fall In-progress)
+  * Math 210A (Algebra)
+  * Math 247A (Classical Fourier Analysis)
+  * Math 251A (Partial Differential Equations)
+
+* 2025-2026
   * Math 245ABC (Real Analysis)
   * Math 246ABC (Complex Analysis)
   * Math 225A (Smooth Manifolds)
