@@ -22,7 +22,7 @@ Relevant Coursework
 
 * 2026-2027 (Fall In-progress)
   * Math 210A (Algebra)
-  * Math 247A (Classical Fourier Analysis)
+  * Math 247A (Harmonic Analysis)
   * Math 251A (Partial Differential Equations)
 
 * 2025-2026
